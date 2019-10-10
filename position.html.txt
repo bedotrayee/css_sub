@@ -1,0 +1,56 @@
+  <!DOCTYPE html>
+<html>
+<head>
+<style>
+h1{
+position:static;
+} 
+h2{
+position:relative;
+left: 100px;
+} 
+h3{
+position:absolute;
+left:30px;
+  top:100px;
+} 
+h4{
+position: -webkit-sticky;
+  position: sticky;
+  top: 0;//why??
+} 
+span{
+color:blue;
+position:initial;
+} 
+.abc span{
+color:inherit;
+} 
+p{
+position:fixed;
+}
+
+
+</style>
+</head>
+<body>
+HEADING
+<h4>position is sticky</h4><br><br>
+<h1>position is static</h1>
+<h2>position is relative </h2>
+<h3>position is absolute</h3>
+
+
+In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.
+
+Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
+
+Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
+<div><span>position is initial</span><div>
+<div class="abc" style="color:green"> position is <span>inherit</span></div>
+<p>position is fixed</p>
+
+</body>
+</html>
+</body>
+</html>
